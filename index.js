@@ -17,9 +17,9 @@ import { yo } from './yo.js';
 import cowsay from 'cowsay';
 import figlet from 'figlet';
 
-// console.log(chalk.bgGrey.white(cowsay.say({
-//     text:greet('Thulebona')
-// })));
+console.log(chalk.bgGrey.white(cowsay.say({
+   text:greet('Thulebona')
+})));
 figlet ('Hello, Thulebona', function(err,data) {
     if (err){
         console.log('I cannot complain');
